@@ -1,0 +1,1 @@
+ffmpeg -i %1 -c:v libx264 -crf 18 -preset veryslow -c:a copy %2
